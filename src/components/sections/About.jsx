@@ -3,14 +3,20 @@ import { RevealOnScroll } from "../RevealOnscroll";
 export const About = () => {
   const frontendSkills = [
     "React.js",
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
     "Tailwind CSS",
-    "HTML",
-    "CSS",
-    "JavaScript",
     "Bootstrap",
   ];
 
-  const backendSkills = ["C#"];
+  const backendSkills = [
+    "C#",
+    ".NET Core Web API",
+    "Entity Framework Core (Code First)",
+    "SQL Server",
+    "RESTful APIs",
+  ];
 
   return (
     <section
@@ -38,7 +44,6 @@ export const About = () => {
                       key={key}
                       className="bg-purple-700/10 text-indigo-500 py-1 px-3 rounded-full text-sm 
 hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
-                      
                     >
                       {tech}
                     </span>
@@ -88,48 +93,41 @@ hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
                   </h4>
                   <p>
                     • Assist in software development (coding, testing,
-                    debugging). 
-                    • Version control (GitHub, Devops) • Cloud
-                    infrastructure (Azure) 
-                    • Write clean, efficient, and
+                    debugging). • Version control (GitHub, Devops) • Cloud
+                    infrastructure (Azure) • Write clean, efficient, and
                     maintainable code.( C#, HTML, CSS ,JavaScript and React) •
-                    Conduct testing and assist with debugging. 
-                    • Document code
-                    and processes clearly.
-                     • Learn new technologies and stay
-                    updated on industry trends.
-                     • Participate in code reviews
-                    for continuous improvement. 
-                    • Assist in project management
-                    and task tracking. 
-                    • Provide technical support to teams and
-                    users.
-                     • Work with cross-functional teams (designers,
+                    Conduct testing and assist with debugging. • Document code
+                    and processes clearly. • Learn new technologies and stay
+                    updated on industry trends. • Participate in code reviews
+                    for continuous improvement. • Assist in project management
+                    and task tracking. • Provide technical support to teams and
+                    users. • Work with cross-functional teams (designers,
                     analysts, developers).
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
-                   
                     Inventory And Facility Coordinator (July 2019 - Sep 2021)
                   </h4>
                   <p>
-                  •	Managed inventory systems to ensure accurate stock levels,
-                   timely replenishments, and efficient allocation of materials.
-                   •	Monitored and maintained warehouse organization,
-                    ensuring compliance with safety and cleanliness standards.
+                    • Managed inventory systems to ensure accurate stock levels,
+                    timely replenishments, and efficient allocation of
+                    materials. • Monitored and maintained warehouse
+                    organization, ensuring compliance with safety and
+                    cleanliness standards.
                   </p>
                 </div>
                 <div>
                   <h4 className="font-semibold">
-                    
-                  Team leader at DHL (Oct 2016 – Jun 2019)
+                    Team leader at DHL (Oct 2016 – Jun 2019)
                   </h4>
                   <p>
-                  •	Supervised a team of 35 staff members, ensuring daily operational targets were met in alignment with DHL performance standards.
-•	Utilized SAP and Manhattan WMS to manage inventory, track stock movements, and maintain data accuracy across the Distribution Centre (DC).
-
+                    • Supervised a team of 35 staff members, ensuring daily
+                    operational targets were met in alignment with DHL
+                    performance standards. • Utilized SAP and Manhattan WMS to
+                    manage inventory, track stock movements, and maintain data
+                    accuracy across the Distribution Centre (DC).
                   </p>
                 </div>
               </div>

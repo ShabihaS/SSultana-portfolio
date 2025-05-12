@@ -20,7 +20,7 @@ export const Projects = () => {
             Showcases my front-end development skills, project experience, and clean UI design with a strong focus on usability and performance.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["React", "HTML5", "CSS3", "Tailwind"].map((tech, key) => (
                     <span
                         key={key}
                         className="bg-purple-500/10 text-indigo-500 py-1 px-3 rounded-full text-sm 
@@ -42,6 +42,45 @@ hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
                 </a>
                 </div>
                 </div>
+
+                 <div className="rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-2  "> Employee Management</h3>
+            <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
+           Employee Management System is a full-stack CRUD application with a React frontend styled using Bootstrap, 
+           and a .NET Core Web API backend using the Code First approach with Entity Framework Core. 
+           It allows users to create, read, update, and delete employee records seamlessly.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+                {[ "React.js",
+  "JavaScript (ES6+)",
+  "HTML5",
+  "CSS3",
+  
+  "Bootstrap","C#",
+  ".NET Core Web API",
+  "Entity Framework Core (Code First)",
+  "SQL Server",
+  "RESTful APIs"].map((tech, key) => (
+                    <span
+                        key={key}
+                        className="bg-purple-500/10 text-indigo-500 py-1 px-3 rounded-full text-sm 
+hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
+                    >
+                        {tech}
+                    </span>
+                ))} 
+
+                
+            </div>
+            <div className="flex justify-between items-center">
+                <a
+                    href="https://github.com/ShabihaS/Employee-Management"
+                    className="text-purple-400 hover:text-indigo-300 transition-colors my-4"           >
+                    View Project →
+                    
+                </a>
+                </div>
+                </div>
                 <div className="rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-xl font-bold mb-2  "> To Do App</h3>
             <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
@@ -49,7 +88,10 @@ hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
             It supports light and dark themes and allows users to track open tasks easily, helping stay organized across all devices.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["React.js",
+  "JavaScript (ES6+)",
+  "HTML5",
+  "CSS3",].map((tech, key) => (
                     <span
                         key={key}
                         className="bg-purple-500/10 text-indigo-500 py-1 px-3 rounded-full text-sm 
@@ -78,7 +120,10 @@ hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
              create, view, edit, and delete expenses, and displays a running total using ViewBag.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["React.js",
+  "JavaScript (ES6+)",
+  "HTML5",
+  "CSS3",].map((tech, key) => (
                     <span
                         key={key}
                         className="bg-purple-500/10 text-indigo-500 py-1 px-3 rounded-full text-sm 
