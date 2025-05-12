@@ -9,22 +9,23 @@ export const Projects = () => {
 
         <RevealOnScroll>
         <div className="max-w-5xl z-10 px-4">
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text text-transparent text-center">
-               projects Features
+            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-700 to-indigo-600 bg-clip-text text-transparent text-center">
+               Projects Features
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-2  "> Cloud Platform</h3>
+                    <h3 className="text-xl font-bold mb-2  "> Portfolio Website </h3>
             <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Scalable cloud infrastructure management with real-time
-            monitoring and automated scaling.
+            A modern, mobile-responsive portfolio built with HTML, CSS, JavaScript, React, and Tailwind CSS. 
+            Showcases my front-end development skills, project experience, and clean UI design with a strong focus on usability and performance.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
                     <span
                         key={key}
-                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                        className="bg-purple-500/10 text-indigo-500 py-1 px-3 rounded-full text-sm 
+hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
+
                     >
                         {tech}
                     </span>
@@ -34,8 +35,8 @@ export const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
                 <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"           >
+                    href="https://github.com/ShabihaS/SSultana-portfolio"
+                    className="text-purple-400 hover:text-indigo-300 transition-colors my-4"           >
                     View Project →
                     
                 </a>
@@ -44,15 +45,15 @@ export const Projects = () => {
                 <div className="rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-xl font-bold mb-2  "> To Do App</h3>
             <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Scalable cloud infrastructure management with real-time
-            monitoring and automated scaling.
+            To-Do App is a mobile-responsive task manager built with React. 
+            It supports light and dark themes and allows users to track open tasks easily, helping stay organized across all devices.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
                     <span
                         key={key}
-                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                        className="bg-purple-500/10 text-indigo-500 py-1 px-3 rounded-full text-sm 
+hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
                     >
                         {tech}
                     </span>
@@ -62,25 +63,26 @@ export const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
                 <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"           >
+                    href="https://github.com/ShabihaS/todo-app"
+                    className="text-purple-400 hover:text-indigo-300 transition-colors my-4"           >
                     View Project →
                     
                 </a>
                 </div>
                 </div>
                 <div className="rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-2  "> To Do App</h3>
+                    <h3 className="text-xl font-bold mb-2  "> Spendsmart</h3>
             <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Scalable cloud infrastructure management with real-time
-            monitoring and automated scaling.
+            Spenssmart is a simple ASP.NET 8 MVC web app for tracking personal expenses.
+             Built using Entity Framework with an in-memory database, it allows users to 
+             create, view, edit, and delete expenses, and displays a running total using ViewBag.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
                     <span
                         key={key}
-                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                        className="bg-purple-500/10 text-indigo-500 py-1 px-3 rounded-full text-sm 
+hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
                     >
                         {tech}
                     </span>
@@ -90,43 +92,17 @@ export const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
                 <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"           >
+                    href="#https://github.com/ShabihaS/SpendSmart"
+                    className="text-purple-400 hover:text-indigo-300 transition-colors my-4"           >
                     View Project →
                     
                 </a>
                 </div>
                 </div>
-                <div className="rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-2  "> To Do App</h3>
-            <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Scalable cloud infrastructure management with real-time
-            monitoring and automated scaling.
-            </p>
-            <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
-                    <span
-                        key={key}
-                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
-                    >
-                        {tech}
-                    </span>
-                ))} 
-
-                
-            </div>
-            <div className="flex justify-between items-center">
-                <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"           >
-                    View Project →
-                    
-                </a>
+      
                 </div>
                 </div>
-                </div>
-                </div>
+              
                 </RevealOnScroll>
                 </section>
         
