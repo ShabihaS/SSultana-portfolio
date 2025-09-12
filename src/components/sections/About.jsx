@@ -89,7 +89,7 @@ hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(99,102,241,0.2)] transition"
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern Programmer at Weigh-More Solution (2024 - Present){" "}
+                    Intern Programmer at Weigh-More Solution (Jan 2025 - June 2025){" "}
                   </h4>
                   <p>
                     • Assist in software development (coding, testing,
